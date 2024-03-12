@@ -1,0 +1,647 @@
+#header-top{
+    background-color: #fcdb00;
+}
+
+
+.sidebar {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(245, 221, 9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffff;
+  display: block;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  color: #bab6b6;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #fcdb00;
+  
+    margin-bottom: 24px;
+  padding: 10px 15px;
+  border: none;
+}
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+ .tinyone{
+    margin-top: 20px;
+    padding-left: 78px;
+ }
+
+.tinyone .finger-img{
+  float: left;
+  box-sizing: border-box;
+}
+.tinyone h1{
+    font-size: 38px;
+    font-weight: bold;
+    padding-left: 57px;
+    margin: auto;
+
+}
+
+
+.social-icon{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+
+.social-icon li a{
+  padding-left: 10px;
+    padding-top: 35px;
+    text-decoration: none;
+    color: #000;
+}
+
+.inspire{
+      margin-top: 66px;
+}
+.inspire h1{
+      margin: auto;
+    font-weight: bold;
+    text-align: center;
+}
+.inspire p{
+   margin-bottom: 3rem;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 15px;
+    margin: 2% 32%;
+
+}
+.bttn{
+  margin: auto;
+  border: 3px solid;
+  width: 172px;
+  text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.bttn a{
+  color: #000;
+}
+.bttn a:hover{
+  text-decoration: none;
+  color: #000;
+}
+
+
+.icon{
+  justify-content: center;
+  display: flex;
+      margin-top: 137px;
+    margin-bottom: 35px;
+
+}
+
+.arroe-bttn{
+  font-size: 30px;
+}
+
+.tinyone-features{
+  padding-top: 118px;
+  padding-bottom: 130px;
+}
+.tinyone-features h1{
+  margin: auto;
+  text-align: center;
+ 
+}
+.para{
+    margin-top: 12px;
+    font-size: 20px;
+    text-align: center;
+    color: #a2a2a2;
+    font-family: Myriad Pro;
+
+}
+
+.tinyone-row .para-2{
+  font-size: 0.9rem;
+  color: #898989;
+  padding-top: 10PX;
+  font-family: Myriad Pro;
+
+}
+.icons{
+      display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2{
+  font-size: 25px;
+    font-weight: bold;
+}
+.pricing{
+  padding-bottom: 60px;
+}
+
+.pricing h1{
+  margin: auto;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.pricing p{
+  margin-top: 12px;
+    font-size: 20px;
+    text-align: center;
+    color: #a2a2a2;
+    font-family: Myriad Pro;
+}
+.pricing-trial{
+  padding-top: 64px;
+
+}
+
+.pricing-trial .mobile-box{
+  
+  width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    background: #ebebeb;
+}
+.bg-mobile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 63px;
+  padding-top: 20px;
+}
+
+
+.basic-head{
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 27px;
+}
+.mobile-icon .basic-para{
+  font-size: 0.9rem;
+  color: #898989;
+  padding-top: 10PX;
+  font-family: Myriad Pro;
+}
+.laptop-box{
+   width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    background: black;
+}
+.bg-laptop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 57px;
+  padding-top: 20px;
+  color: white;
+}
+.standard-head{
+   margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 27px;
+}
+.mobile-icon .laptop-para{
+  font-size: 0.9rem;
+  color: #898989;
+  padding-top: 10PX;
+  font-family: Myriad Pro;
+}
+
+.desktop-box{
+  width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    background: #ebebeb;
+}
+.bg-desktop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  padding-top: 29px;
+}
+.laptop-head{
+   margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 27px;
+}
+
+.price-rate .free{
+  margin: auto;
+  text-align: center;
+  border-bottom: 4px solid;
+  width: 65px;
+  font-size: 36px;
+}
+.price-rate .para-3{
+  font-size: 0.9rem;
+    color: #898989;
+    padding-top: 10PX;
+    font-family: Myriad Pro;
+}
+.get-free{
+  border: 3px solid;
+    width: 169px;
+    margin: auto;
+    height: 47px;
+}
+.get-free h1{
+  font-size: 23px;
+    margin-top: 6px
+}
+.month .month-head {
+  margin: auto;
+  text-align: center;
+  border-bottom: 4px solid;
+  width: 65px;
+  font-size: 36px;
+}
+.month .month-para{
+  font-size: 0.9rem;
+    color: #898989;
+    padding-top: 10PX;
+    font-family: Myriad Pro;
+}
+.upgrade{
+  border: 3px solid;
+    width: 169px;
+    margin: auto;
+    height: 47px;
+}
+.upgrade h1{
+  font-size: 23px;
+    margin-top: 6px
+}
+.month-2 .doller-head {
+  margin: auto;
+  text-align: center;
+  border-bottom: 4px solid;
+  width: 86px;
+  font-size: 36px;
+}
+.month-2 .doller-para{
+  font-size: 0.9rem;
+    color: #898989;
+    padding-top: 10PX;
+    font-family: Myriad Pro;
+}
+.learn-more{
+  border: 3px solid;
+    width: 169px;
+    margin: auto;
+    height: 47px;
+}
+.learn-more h1{
+  font-size: 23px;
+    margin-top: 6px
+}
+.our-works{
+  padding-top: 135px;
+  padding-bottom: 8%;
+}
+.our-works .works-head{
+  margin: auto;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.our-works .work-para{
+  margin-top: 22px;
+  font-size: 20px;
+  text-align: center;
+  color: #a2a2a2;
+  font-family: Myriad Pro;
+  margin-bottom: 62px;
+}
+.dollar-img{
+      width: 100%;
+}
+.fully-head{
+  margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 17px;
+}
+.design-para{
+    font-size: 15px;
+    margin-top: 7px;
+    color: #a2a2a2;
+    font-family: Myriad Pro;
+}
+.dollar-1{
+  padding-top: 100px;
+}
+
+.our-team{
+  padding-top: 135px;
+  padding-bottom: 8%;
+}
+.team-head{
+   margin: auto;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.team-para{
+  margin-top: 22px;
+  font-size: 20px;
+  text-align: center;
+  color: #a2a2a2;
+  font-family: Myriad Pro;
+  margin-bottom: 62px;
+}
+.sun-img{
+      width: 100%;
+      float: left;
+          margin-bottom: 34px;
+    margin-top: 32px;
+
+
+}
+.jhon-head{
+  margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 17px;
+}
+.designer-para{
+    font-size: 15px;
+    margin-top: 7px;
+    color: #a2a2a2;
+    font-family: Myriad Pro;
+}
+.sun p{
+  text-align: center;
+}
+.fab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding-right: 14px;
+}
+.twit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding-right: 14px;
+}
+.linkd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding-right: 14px;
+}
+.model-img{
+      width: 100%;
+      float: left;
+          margin-bottom: 34px;
+    margin-top: 32px;
+
+}
+.model p{
+  text-align: center;
+}
+.model2-img{
+  width: 100%;
+  float: left;
+      margin-bottom: 34px;
+    margin-top: 32px;
+
+}
+.model2-img p{
+  text-align: center;
+}
+.model3-img{
+  width: 100%;
+  float: left;
+     margin-bottom: 34px;
+    margin-top: 32px;
+}
+.model3-img p{
+  text-align: center;
+}
+.testimonial{
+  padding-top: 85px;
+   padding-bottom: 85px;
+}
+.testimonial-head{
+ margin: auto;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.testimonial-para{
+   margin-top: 22px;
+  font-size: 20px;
+  text-align: center;
+  color: #a2a2a2;
+  font-family: Myriad Pro;
+  margin-bottom: 62px;
+}
+.puzzle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 44px;
+  padding-left: 12px;
+}
+.puzzle-head{
+  text-align: center;
+  font-weight: bold;
+      padding-top: 10px;
+}
+.puzzle-para{
+  font-size: 12px;
+  color: #898989;
+  margin: auto;
+}
+.sun2{
+  text-align: center;
+  padding-top: 49px;
+
+}
+.sun2-img{
+  width: 50%;
+}
+.sun2-head{
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 17px;
+}
+.sun2-para{
+  font-size: 12px;
+  color: #898989;
+  margin: auto;
+  padding-bottom: 17px;
+}
+
+
+q {
+    font-size: 13px;
+    font-weight: bold;
+    color: #898989;
+}
+.contuct-us{
+  padding-top: 68px;
+  padding-bottom: 95px;
+
+}
+
+.contuct{
+  padding-top: 85px;
+   padding-bottom: 85px;
+}
+.contuct-head{
+ margin: auto;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.contuct-para{
+   margin-top: 22px;
+  font-size: 20px;
+  text-align: center;
+  color: #a2a2a2;
+  font-family: Myriad Pro;
+  margin-bottom: 62px;
+}
+.location-head{
+  margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 17px;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    padding-left: 12px;
+
+}
+.location-para{
+      font-size: 15px;
+    margin-top: 7px;
+    color: #a2a2a2;
+    font-family: Myriad Pro;
+}
+.address-box{
+  padding-top: 40px;
+}
+.send-box{
+  text-align: center;
+}
+
+
+.bg-color {
+   
+    background: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 19px;
+}
+.footer-body{
+  background-color: black;
+}
+.fttr-head{
+      color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Myriad Pro;
+    padding-top: 63px;
+}
+.fttr-para{
+    margin-top: 20px;
+    font-size: 23px;
+    color: #898989;
+    font-size: 20px;
+    font-family: Myriad Pro;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.email-update{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.button {
+  background-color: #ffff;
+  border: none;
+  color: black;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 0px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.footer-para{
+  color: #898989;
+  font-family: Myriad Pro;
+  font-size: 14px;
+  margin: auto;
+}
+.footer-head{
+  font-size: 14px;
+  font-family: Myriad Pro;
+    color: #898989;
+}
+.footer-bar{
+      margin-top: 69px;
+    padding-bottom: 204px;
+}
